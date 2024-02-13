@@ -1,4 +1,5 @@
-﻿using CosmosDBAPI.Models;
+﻿using System.Runtime.CompilerServices;
+using CosmosDBAPI.Models;
 
 namespace CosmosDBAPI;
 
@@ -81,5 +82,7 @@ public interface ICosmosDBServices
             new Product(id: "dab34a6d-44b5-4cd6-92b6-3c1eab1de1a4", categoryId: "3B75F01D-6443-4C83-B182-8BB38192C33B", categoryName: "Components, Mountain Frames", sku: "FR-M94B-42", name: """HL Mountain Frame - Black, 42""", description: """The product called "HL Mountain Frame - Black, 42".""", price: 1349.5999999999999m)
         };
     }
+
+    public Task<Product> CreateProduct(Product product);
 
 }

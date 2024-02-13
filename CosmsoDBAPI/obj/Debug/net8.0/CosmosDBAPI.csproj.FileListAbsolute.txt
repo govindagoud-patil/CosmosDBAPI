@@ -60,3 +60,4 @@ C:\E\repo\Azure\Cosmos\CosmsoDBAPI\obj\Debug\net8.0\refint\CosmosDBAPI.dll
 C:\E\repo\Azure\Cosmos\CosmsoDBAPI\obj\Debug\net8.0\CosmosDBAPI.pdb
 C:\E\repo\Azure\Cosmos\CosmsoDBAPI\obj\Debug\net8.0\CosmosDBAPI.genruntimeconfig.cache
 C:\E\repo\Azure\Cosmos\CosmsoDBAPI\obj\Debug\net8.0\ref\CosmosDBAPI.dll
+C:\E\repo\Azure\Cosmos\CosmsoDBAPI\obj\Debug\net8.0\CosmosDBAPI.sourcelink.json

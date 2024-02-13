@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wx3Zgx2JFzFLB8CiK0pPeObm5wpoNtvkeYQg+Ct1YGcLsppQGEhWRhX7La22jLjEMzmRfuwLj+1gHDz4D6kDcA==",
+  "dgSpecHash": "yB+n85owWi2g9PDryZ92ElrC4BHuY7w1Ib4EwFETvle4oZNY1f4jEykKoM0VVL+Z6B8Kk3KJac/Z2Vi9rfOAUQ==",
   "success": true,
-  "projectFilePath": "C:\\E\\repo\\Azure\\Cosmos\\CosmsoDBAPI\\CosmosDBAPI.csproj",
+  "projectFilePath": "c:\\E\\repo\\Azure\\Cosmos\\CosmsoDBAPI\\CosmosDBAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\govin\\.nuget\\packages\\azure.core\\1.19.0\\azure.core.1.19.0.nupkg.sha512",
     "C:\\Users\\govin\\.nuget\\packages\\microsoft.azure.cosmos\\3.38.1\\microsoft.azure.cosmos.3.38.1.nupkg.sha512",

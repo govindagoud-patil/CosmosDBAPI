@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\E\\repo\\Azure\\Cosmos\\CosmsoDBAPI\\CosmosDBAPI.csproj": {}
+    "c:\\E\\repo\\Azure\\Cosmos\\CosmsoDBAPI\\CosmosDBAPI.csproj": {}
   },
   "projects": {
-    "C:\\E\\repo\\Azure\\Cosmos\\CosmsoDBAPI\\CosmosDBAPI.csproj": {
+    "c:\\E\\repo\\Azure\\Cosmos\\CosmsoDBAPI\\CosmosDBAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\E\\repo\\Azure\\Cosmos\\CosmsoDBAPI\\CosmosDBAPI.csproj",
+        "projectUniqueName": "c:\\E\\repo\\Azure\\Cosmos\\CosmsoDBAPI\\CosmosDBAPI.csproj",
         "projectName": "CosmosDBAPI",
-        "projectPath": "C:\\E\\repo\\Azure\\Cosmos\\CosmsoDBAPI\\CosmosDBAPI.csproj",
+        "projectPath": "c:\\E\\repo\\Azure\\Cosmos\\CosmsoDBAPI\\CosmosDBAPI.csproj",
         "packagesPath": "C:\\Users\\govin\\.nuget\\packages\\",
-        "outputPath": "C:\\E\\repo\\Azure\\Cosmos\\CosmsoDBAPI\\obj\\",
+        "outputPath": "c:\\E\\repo\\Azure\\Cosmos\\CosmsoDBAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

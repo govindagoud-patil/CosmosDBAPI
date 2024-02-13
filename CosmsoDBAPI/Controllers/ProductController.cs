@@ -22,4 +22,11 @@ public class ProductController : ControllerBase
 
     }
 
+    [HttpPost]
+    public async Task<Product> CreateProudct(Product product)
+    {
+        return await _cosmosDBServices.CreateProduct(product);
+
+    }
+
 }

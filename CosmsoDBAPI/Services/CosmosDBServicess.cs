@@ -7,16 +7,20 @@ namespace CosmosDBAPI;
 public class CosmosDBServicess : ICosmosDBServices
 {
     private readonly CosmosClient _client;
-    public CosmosDBServicess()
+    public CosmosDBServicess(CosmosClient cosmosClient)
     {
-        _client =
-          new CosmosClient(accountEndpoint: "https://localhost:8081/",
-                 authKeyOrResourceToken: "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==");
+        _client = cosmosClient;
+        //   new CosmosClient(accountEndpoint: "https://localhost:8081/",
+        //          authKeyOrResourceToken: "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==");
     }
 
     private Container container
     {
         get => _client.GetDatabase("cosmicworks").GetContainer("products");
+    }
+    private Container Family
+    {
+        get => _client.GetDatabase("cosmicworks").GetContainer("family");
     }
 
     public async Task<IEnumerable<Product>> RetrieveAllProductsAsync()
@@ -77,5 +81,10 @@ public class CosmosDBServicess : ICosmosDBServices
         return result;
 
 
+    }
+
+    public async Task<Product> CreateProduct(Product product)
+    {
+        return await container.CreateItemAsync<Product>(item: product, partitionKey: new PartitionKey(product.categoryName));
     }
 }
