@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AgABj1D66LpXk6ASI/m0mf9Zw09OF0xR3YVCoAhLTrs=",
+  "Source": "CosmosDBAPI",
+  "BasePath": "_content/CosmosDBAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
